@@ -40,3 +40,7 @@
 .jumpTarget:active, .target:active {
   outline: none;
 }
+
+.h2-item {
+  margin-left: 1rem;
+}
