@@ -1,0 +1,42 @@
+.table-of-contents {
+  z-index: 1;
+  /*position: -webkit-sticky;*/
+  /*position: sticky;*/
+  position: fixed;
+  top: 2rem;
+  width: 15rem;
+  right: 0rem;
+  align-self: start;
+  margin-right: 1rem;
+  border-left: 1px solid #efefef;
+  border-bottom: none;
+  border-top: none;
+  max-height: 90%;
+  overflow-y: auto;
+}
+
+.table-of-contents a.active {
+  color: #333;
+  font-weight: 500;
+}
+
+.table-of-contents a {
+  text-decoration: none;
+  display: block;
+  padding: .125rem 0;
+  color: #ccc;
+  transition: all 50ms ease-in-out;
+}
+
+.table-of-contents a:hover,
+.table-of-contents a:focus {
+  color: #666;
+}
+
+.table-of-contents li {
+  margin-left: 1rem;
+}
+
+.jumpTarget:active, .target:active {
+  outline: none;
+}
