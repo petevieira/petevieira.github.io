@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Linguistics on Makotori</title>
+    <link>https://petevieira.github.io/linguistics/</link>
+    <description>Recent content in Linguistics on Makotori</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    
+	<atom:link href="https://petevieira.github.io/linguistics/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Syntax</title>
+      <link>https://petevieira.github.io/linguistics/syntax/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://petevieira.github.io/linguistics/syntax/</guid>
+      <description>Syntax Trees  Mental computations of language:  performed on a hierarchically organized structure, not on a linear string of words    Title 2 Subtitle 1 Title 3 Title 4 </description>
+    </item>
+    
+  </channel>
+</rss>

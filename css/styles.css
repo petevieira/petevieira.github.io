@@ -21,12 +21,19 @@ html {
     line-height: 1.5;
     color: #111;
     background-color: #fefefe;
+    scroll-behavior: smooth;
 }
 template {
   display: none !important;
 }
 * + * {
     margin-top: 2.25rem;
+}
+.mt0 {
+    margin-top: 0rem !important;
+}
+.ls-none {
+    list-style: none;
 }
 br,
 dt,
@@ -96,7 +103,7 @@ div:not([tabindex]):focus {
 /* Skip link */
 [href="#main"] {
     display: block;
-    width: 100%;
+    width: 90%;
     padding: 0.75rem;
     color: #fefefe;
     background: #000;
@@ -313,7 +320,7 @@ caption {
 .wrapper {
     position: relative;
     margin-top: 0;
-    overflow-x: hidden;
+    /*overflow-x: hidden;*/
 }
 .intro-and-nav {
     font-size: 0.8rem;
@@ -351,6 +358,7 @@ caption {
 }
 .main-and-footer {
     margin-left: 15rem;
+    margin-right: 15rem;
 }
 .main-and-footer > div {
     max-width: 40rem;
@@ -548,6 +556,11 @@ main {
     display: block;
     counter-reset: fig;
     min-height: 100vh;
+}
+main > nav {
+    position: sticky;
+    top: 2rem;
+    align-self: start;
 }
 figcaption::before {
     counter-increment: fig;
@@ -823,7 +836,7 @@ h1 svg {
     margin-left: 0;
 }
 .wrapper.print-version .intro-and-nav {
-    position: static;
+    /*position: static;*/
     border: 0;
     width: auto;
     text-align: center;
@@ -1029,8 +1042,67 @@ h1 svg {
     background: rgba(0,0,0,.8);
     color: #fefefe;
 }
-  
+
 ::selection {
   background: rgba(0,0,0,.8);
   color: #fefefe;
+}
+
+/* Sidebar Navigation */
+.section-nav {
+  margin-top: 2rem;
+  padding-left: 0;
+  border-left: 1px solid #efefef;
+}
+
+.section-nav a {
+  text-decoration: none;
+  display: block;
+  padding: .125rem 0;
+  color: #ccc;
+  transition: all 50ms ease-in-out; /* This small transition makes setting of the active state smooth */
+}
+
+.section-nav a:hover,
+.section-nav a:focus {
+  color: #666;
+}
+
+.table-of-contents {
+  z-index: 1;
+  /*position: -webkit-sticky;*/
+  /*position: sticky;*/
+  position: fixed;
+  top: 2rem;
+  width: 15rem;
+  right: 0rem;
+  align-self: start;
+  margin-right: 1rem;
+  border-left: 1px solid #efefef;
+}
+
+.table-of-contents a.active {
+  color: #333;
+  font-weight: 500;
+}
+
+.table-of-contents a {
+  text-decoration: none;
+  display: block;
+  padding: .125rem 0;
+  color: #ccc;
+  transition: all 50ms ease-in-out;
+}
+
+.table-of-contents a:hover,
+.table-of-contents a:focus {
+  color: #666;
+}
+
+.table-of-contents li {
+  margin-left: 1rem;
+}
+
+.jumpTarget:active, .target:active {
+  outline: none;
 }

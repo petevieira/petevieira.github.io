@@ -76,5 +76,14 @@ Wooden Dummy Section 1 (1-10)  Refighting Position  Neutral stance, left hand in
       <description>Explanation  Unless specified otherwise, meditation is done indoors and everything else is done outdoors. Stretching varies between indoor and outdoor. The purpose of this journal is to track my efforts and progress, as well as give me a way to go back and know what I did, how long, how consistently, etc, as well as to help me reflect more on my efforts.   2019-04-06 Mediation  Position: half-lotus Duration: 10 min Experience:  Very difficult.</description>
     </item>
     
+    <item>
+      <title>Syntax</title>
+      <link>https://petevieira.github.io/linguistics/syntax/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://petevieira.github.io/linguistics/syntax/</guid>
+      <description>Syntax Trees  Mental computations of language:  performed on a hierarchically organized structure, not on a linear string of words    Title 2 Subtitle 1 Title 3 Title 4 </description>
+    </item>
+    
   </channel>
 </rss>
