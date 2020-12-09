@@ -211,6 +211,12 @@
         <ul class="mt0">
           
           <li style="margin-left: 1.5rem;">
+            <a href="https://petevieira.github.io/linguistics/phonology/">
+              Phonology
+            </a>
+          </li>
+          
+          <li style="margin-left: 1.5rem;">
             <a href="https://petevieira.github.io/linguistics/syntax/">
               Syntax
             </a>
@@ -250,9 +256,9 @@
           
           
           
-            <a href="/linguistics/syntax/#syntax-trees">
+            <a href="/linguistics/syntax/#hierarchical-organization-of-language">
           
-              <li class="mt0">Syntax Trees</li>
+              <li class="mt0">Hierarchical Organization of Language</li>
           </a>
           
           
@@ -353,13 +359,197 @@
         
       
     
+      
+      
+        
+          
+          
+          
+            <ul class="toc-h1 mt0">
+          
+          
+          
+          
+          
+            <a href="/linguistics/syntax/#notes" class="h2-item">
+          
+              <li class="mt0">Notes</li>
+          </a>
+          
+          
+            </ul>
+          
+        
+      
+    
+      
+      
+        
+          
+          
+          
+            <ul class="toc-h1 mt0">
+          
+          
+          
+          
+          
+            <a href="/linguistics/syntax/#organization-of-constituents" class="h2-item">
+          
+              <li class="mt0">Organization of Constituents</li>
+          </a>
+          
+          
+            </ul>
+          
+        
+      
+    
+      
+      
+        
+          
+          
+          
+            <ul class="toc-h1 mt0">
+          
+          
+          
+          
+          
+            <a href="/linguistics/syntax/#syntax-trees">
+          
+              <li class="mt0">Syntax Trees</li>
+          </a>
+          
+          
+            </ul>
+          
+        
+      
+    
+      
+      
+        
+          
+          
+          
+            <ul class="toc-h1 mt0">
+          
+          
+          
+          
+          
+            <a href="/linguistics/syntax/#terminology" class="h2-item">
+          
+              <li class="mt0">Terminology</li>
+          </a>
+          
+          
+            </ul>
+          
+        
+      
+    
+      
+      
+        
+          
+          
+          
+            <ul class="toc-h1 mt0">
+          
+          
+          
+          
+          
+            <a href="/linguistics/syntax/#branching" class="h2-item">
+          
+              <li class="mt0">Branching</li>
+          </a>
+          
+          
+            </ul>
+          
+        
+      
+    
+      
+      
+        
+          
+          
+          
+            <ul class="toc-h1 mt0">
+          
+          
+          
+          
+          
+            <a href="/linguistics/syntax/#merge" class="h2-item">
+          
+              <li class="mt0">Merge</li>
+          </a>
+          
+          
+            </ul>
+          
+        
+      
+    
+      
+      
+        
+          
+          
+          
+            <ul class="toc-h1 mt0">
+          
+          
+          
+          
+          
+            <a href="/linguistics/syntax/#projection" class="h2-item">
+          
+              <li class="mt0">Projection</li>
+          </a>
+          
+          
+            </ul>
+          
+        
+      
+    
+      
+      
+        
+          
+          
+          
+            <ul class="toc-h1 mt0">
+          
+          
+          
+          
+          
+            <a href="/linguistics/syntax/#x-bar-schema" class="h2-item">
+          
+              <li class="mt0">X-bar Schema</li>
+          </a>
+          
+          
+            </ul>
+          
+        
+      
+    
   </div>
 
         <div>
           
   <main id="main">
     <h1>Syntax</h1>
-    <h1 id="syntax-trees">Syntax Trees</h1>
+    <h1 id="hierarchical-organization-of-language">Hierarchical Organization of Language</h1>
 <ul>
 <li>Mental computations of language:
 <ul>
@@ -444,6 +634,101 @@
 </li>
 </ul>
 <p><strong>&ldquo;cohesive substrings&rdquo; = &ldquo;consituents&rdquo;</strong></p>
+<h2 id="notes">Notes</h2>
+<ul>
+<li>Constituency tests work fine but they are unidirectionl:
+<ul>
+<li>If they succeed, then the substring is a constituent,</li>
+<li>But if they fail, then either
+<ul>
+<li>the substring is not a constituent</li>
+<li>or it is a constituent, but failed the test for a different reason</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>So H2 doesn&rsquo;t capture the idea that some substrings form constituents, and some don&rsquo;t.</li>
+</ul>
+<h2 id="organization-of-constituents">Organization of Constituents</h2>
+<ul>
+<li>Constituents are always nested, i.e., fully contained in another constituent.
+<ul>
+<li>Partially overlapping constituents don&rsquo;t exist: <sup>*</sup> [word 1 [[word 2] word 3]]</li>
+</ul>
+</li>
+</ul>
+<h1 id="syntax-trees">Syntax Trees</h1>
+<h2 id="terminology">Terminology</h2>
+<ul>
+<li><strong>Dominance</strong>: A node <em>α</em> <em>dominates</em> a node <em>β</em> iff there is a descending path from <em>α</em> to <em>β</em>.</li>
+<li><strong>Mothers</strong>/<strong>Daughters</strong>/<strong>Sisters</strong>:
+<ul>
+<li>A node <em>α</em> is the <em>mother</em> of a node <em>β</em> iff <em>α</em> immediately dominates <em>β</em>.</li>
+<li><em>β</em> is the <em>daughter</em> of <em>α</em></li>
+<li><em>α</em> is the <em>mother</em> of <em>β</em></li>
+<li><em>β</em> and <em>γ</em> are <em>sisters</em> iff <em>β</em> and <em>γ</em> have the same mother <em>α</em></li>
+</ul>
+</li>
+<li><strong>Terminal nodes</strong>: A node <em>α</em> is a <em>terminal node</em> iff <em>α</em> has no daughters</li>
+<li><strong>Exhaustive dominance</strong>: A node <em>α</em> <em>exhaustively dominates</em> a string <em>S</em> iff
+<ul>
+<li><em>α</em> dominates every terminal <em>t</em> ∈ <em>S</em></li>
+<li>There is no terminal <em>t&rsquo;</em> ∉ <em>S</em> that <em>α</em> dominates</li>
+</ul>
+</li>
+<li><strong>Constituents</strong>: Strings that are exhaustively dominated by a single node.</li>
+<li><strong>Maximal projection</strong>: The highest relevant projection of a property that stop projecting to the next node up. A.k.a. &ldquo;phrase&rdquo;.
+<ul>
+<li>When b stops projects, we have a &ldquo;bP&rdquo; or a &ldquo;b phrase&rdquo;.</li>
+</ul>
+</li>
+<li><strong>Head</strong>: A terminal node, i.e., at the bottom of the syntax tree (end of branch), with no children.</li>
+</ul>
+<h2 id="branching">Branching</h2>
+<p>So far trees we&rsquo;ve seen have been &ldquo;binary branching&rdquo;. This means that every mother has at most two daughters. Let&rsquo;s adopt the hypothesis that branching is only ever binary.</p>
+<h2 id="merge">Merge</h2>
+<p>How are syntactic trees built:</p>
+<ul>
+<li>Syntactic trees are binary branching trees</li>
+<li>Built by iteration of a structure-building operation called <em>Merge</em>.</li>
+<li>Merge takes two elements <em>α</em> and <em>β</em>, and forms a single, binary branching constituent out of them.</li>
+<li>Merge two words:<br>
+<img class="mw15" src="/images/merge-two-words.png" alt="Merge two words"></li>
+<li>Merge a word with a constituent formed by a previous iteration of <em>Merge</em>:<br>
+<img class="mw25" src="/images/merge-word-with-constituent.png" alt="Merge word with constituent"></li>
+<li>Merge two constituents formed by a previous iteration of <em>Merge</em>:<br>
+<img class="mw70" src="/images/merge-two-constituents.png" alt="Merge two constituents"></li>
+</ul>
+<h3 id="names">Names:</h3>
+<ul>
+<li>Merge (a,b) -&gt; X <br>
+<img class="mw15" src="/images/merge-a-b-x.png" alt="Merge(a,b)->X"></li>
+<li>But what is X?
+<ul>
+<li>X will be a <em>projection</em> of either <em>a</em> or <em>b</em>.</li>
+<li>i.e., either <em>a</em> or <em>b</em> will pass on some of its properties (or features) to X.</li>
+</ul>
+</li>
+<li>Think of the x&rsquo; (&ldquo;x-bar&rdquo;) notation as indicating that the &ldquo;x-ness&rdquo; of this constituent has been passed up to this node from lower down.</li>
+</ul>
+<h2 id="projection">Projection</h2>
+<ul>
+<li><strong>Definition</strong>: The highest relevant projection of a property that stop projecting to the next node up. A.k.a. &ldquo;phrase&rdquo;.
+<ul>
+<li>When b stops projects, we have a &ldquo;bP&rdquo; or a &ldquo;b phrase&rdquo;.</li>
+</ul>
+</li>
+<li>So what determines which node projects?</li>
+<li>A *<em>Head</em> is a terminal node, i.e., at the bottom of the syntax tree (end of branch). A set formed by Merge cannot be a head, because it has children.</li>
+<li>A consitutent <em>α</em> is headed by a terminal node <em>x</em> iff <em>x</em> determines the properties of <em>α</em>.</li>
+</ul>
+<h3 id="representations">Representations</h3>
+<ul>
+<li>Head: X<sup>0</sup></li>
+<li>Maximal Projection: XP</li>
+<li>All intermediate projections: X<sup>'</sup></li>
+</ul>
+<h2 id="x-bar-schema">X-bar Schema</h2>
 
     
   </main>

@@ -11,12 +11,21 @@
     
     
     <item>
+      <title>Phonology</title>
+      <link>https://petevieira.github.io/linguistics/phonology/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://petevieira.github.io/linguistics/phonology/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Syntax</title>
       <link>https://petevieira.github.io/linguistics/syntax/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://petevieira.github.io/linguistics/syntax/</guid>
-      <description>Syntax Trees  Mental computations of language:  performed on a hierarchically organized structure, not on a linear string of words   How are words organized into a sentence?  H1: A sentence is a collection words?  NO! Doesn&amp;rsquo;t account for word order   H2: A sentence is an ordered collection of words?  NO! Can&amp;rsquo;t tell us why sentence a is good and b is bad NO!</description>
+      <description>Hierarchical Organization of Language  Mental computations of language:  performed on a hierarchically organized structure, not on a linear string of words   How are words organized into a sentence?  H1: A sentence is a collection words?  NO! Doesn&amp;rsquo;t account for word order   H2: A sentence is an ordered collection of words?  NO! Can&amp;rsquo;t tell us why sentence a is good and b is bad NO!</description>
     </item>
     
   </channel>
