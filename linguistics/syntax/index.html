@@ -175,6 +175,12 @@
           </li>
           
           <li style="margin-left: 1.5rem;">
+            <a href="https://petevieira.github.io/cultivation-arts/my-path/">
+              My Path
+            </a>
+          </li>
+          
+          <li style="margin-left: 1.5rem;">
             <a href="https://petevieira.github.io/cultivation-arts/qigong/">
               Qigong (氣功)
             </a>
@@ -377,30 +383,7 @@
           
           
           
-            <a href="/linguistics/syntax/#notes" class="h2-item">
-          
-              <li class="mt0">Notes</li>
-          </a>
-          
-          
-            </ul>
-          
-        
-      
-    
-      
-      
-        
-          
-          
-          
-            <ul class="toc-h1 mt0">
-          
-          
-          
-          
-          
-            <a href="/linguistics/syntax/#organization-of-constituents" class="h2-item">
+            <a href="/linguistics/syntax/#organization-of-constituents">
           
               <li class="mt0">Organization of Constituents</li>
           </a>
@@ -549,6 +532,98 @@
         
       
     
+      
+      
+        
+          
+          
+          
+            <ul class="toc-h1 mt0">
+          
+          
+          
+          
+          
+            <a href="/linguistics/syntax/#do-insertion" class="h2-item">
+          
+              <li class="mt0">Do-insertion</li>
+          </a>
+          
+          
+            </ul>
+          
+        
+      
+    
+      
+      
+        
+          
+          
+          
+            <ul class="toc-h1 mt0">
+          
+          
+          
+          
+          
+            <a href="/linguistics/syntax/#embedded-sentences-that" class="h2-item">
+          
+              <li class="mt0">Embedded Sentences - that</li>
+          </a>
+          
+          
+            </ul>
+          
+        
+      
+    
+      
+      
+        
+          
+          
+          
+            <ul class="toc-h1 mt0">
+          
+          
+          
+          
+          
+            <a href="/linguistics/syntax/#theta-roles" class="h2-item">
+          
+              <li class="mt0">Theta-roles</li>
+          </a>
+          
+          
+            </ul>
+          
+        
+      
+    
+      
+      
+        
+          
+          
+          
+            <ul class="toc-h1 mt0">
+          
+          
+          
+          
+          
+            <a href="/linguistics/syntax/#references" class="h2-item">
+          
+              <li class="mt0">References</li>
+          </a>
+          
+          
+            </ul>
+          
+        
+      
+    
   </div>
 
         <div>
@@ -556,6 +631,7 @@
   <main id="main">
     <h1>Syntax</h1>
     <hr>
+<p>Source for most of this: <a href="#ref1">[1]</a></p>
 <h1 id="hierarchical-organization-of-language">Hierarchical Organization of Language</h1>
 <ul>
 <li>Mental computations of language:
@@ -641,7 +717,7 @@
 </li>
 </ul>
 <p><strong>&ldquo;cohesive substrings&rdquo; = &ldquo;consituents&rdquo;</strong></p>
-<h2 id="notes">Notes</h2>
+<h3 id="notes">Notes</h3>
 <ul>
 <li>Constituency tests work fine but they are unidirectionl:
 <ul>
@@ -656,7 +732,7 @@
 </li>
 <li>So H2 doesn&rsquo;t capture the idea that some substrings form constituents, and some don&rsquo;t.</li>
 </ul>
-<h2 id="organization-of-constituents">Organization of Constituents</h2>
+<h1 id="organization-of-constituents">Organization of Constituents</h1>
 <ul>
 <li>Constituents are always nested, i.e., fully contained in another constituent.
 <ul>
@@ -690,6 +766,12 @@
 </ul>
 </li>
 <li><strong>Head</strong>: A terminal node, i.e., at the bottom of the syntax tree (end of branch), with no children.</li>
+<li><strong>Complement of X<sup>0</sup></strong>: sister of X<sup>0</sup>.</li>
+<li><strong>Specifier of XP</strong>: sister of highest X&rsquo;</li>
+<li><strong>Adjunct</strong>: a merged constituent that&rsquo;s neither the complement nor the specifier</li>
+<li><strong>Subject of sentence</strong>: specifier of the IP</li>
+<li><strong>Object of sentence</strong>: complement of the V<sup>0</sup></li>
+<li><strong>Complementizer</strong>: lexical items that introduce sentences (CP, C<sup>0</sup>, C&rsquo;) (e.g., <em>that</em>, <em>if</em>, <em>because</em>, <em>since</em>)</li>
 </ul>
 <h2 id="branching">Branching</h2>
 <p>So far trees we&rsquo;ve seen have been &ldquo;binary branching&rdquo;. This means that every mother has at most two daughters. Let&rsquo;s adopt the hypothesis that branching is only ever binary.</p>
@@ -731,11 +813,65 @@
 </ul>
 <h3 id="representations">Representations</h3>
 <ul>
-<li>Head: X<sup>0</sup></li>
+<li>Head: X<sup>0</sup> of a</li>
 <li>Maximal Projection: XP</li>
 <li>All intermediate projections: X<sup>'</sup></li>
 </ul>
 <h2 id="x-bar-schema">X-bar Schema</h2>
+<ul>
+<li>Proper represention of a terminal node: XP - X<sup>0</sup> - word</li>
+<li>What is the top-most node of a tree marked. i.e., What head is the sentence a maximal project of?
+<ul>
+<li>We&rsquo;ll accept that the sentence is the maximal project of a head that carries the features for tense and subject agreement.</li>
+<li>We&rsquo;ll call this head <strong>I<sup>0</sup></strong> for <em>Inflection</em></li>
+</ul>
+</li>
+<li>Axioms for the position that a sentence is the projection of an inflectional head I<sup>0</sup>
+<ol>
+<li>Inflectional data such as tense and agreement should be represented as a head separate from the verb.</li>
+<li>This inflectional head is the head of the entire sentence.</li>
+</ol>
+</li>
+</ul>
+<h2 id="do-insertion">Do-insertion</h2>
+<p>Examples of separation of Verb and Tense/Agreement</p>
+<ul>
+<li>&ldquo;The cat does not play with the dog.&rdquo;</li>
+<li>&ldquo;The cat did not go home.&rdquo;</li>
+<li>&ldquo;Did the cat go home.&rdquo;</li>
+</ul>
+<p>&ldquo;Do&rdquo; is a dummy word inserted to carry tense and agreement, but doesn&rsquo;t contibute any meaning.</p>
+<ul>
+<li>Seems like it does in questions</li>
+</ul>
+<p>So to represent the tense/agreement, we can either</p>
+<ol>
+<li>produce the verb and inflectional material together and separate them sometimes, or</li>
+<li>produce the verb and inflectional material separately and sometimes bring them together</li>
+</ol>
+<p>Conclusion from Noam Chomsky in the 50s went with option 2.</p>
+<h2 id="embedded-sentences---that">Embedded Sentences - that</h2>
+<p>A sentence can itself be the object of a verb:</p>
+<ul>
+<li>&ldquo;The owner knows [that the cat doesn&rsquo;t like water]&rdquo;</li>
+</ul>
+<p>or the subject of a sentence:</p>
+<ul>
+<li>&ldquo;[That the cat doesn&rsquo;t like water] is irrelevant to the owner&rdquo;</li>
+</ul>
+<p>What do we do with <strong>that</strong> in these sentences?</p>
+<ul>
+<li>Lexical items that introduce sentences are called <strong>complementizers</strong>
+<ul>
+<li>e.g., <em>that</em>, <em>if</em>, <em>because</em>, <em>since</em></li>
+<li>These are denoted with CP, C<sup>0</sup>, C&rsquo;</li>
+</ul>
+</li>
+</ul>
+<h2 id="theta-roles">Theta-roles</h2>
+<hr>
+<h2 id="references">References</h2>
+<p><a id="ref1">1. Sabine Iatridou. 24.902 Language and its Structure II: Syntax. Fall 2015. Massachusetts Institute of Technology: MIT OpenCourseWare, <a href="https://ocw.mit.edu">https://ocw.mit.edu</a>. License: Creative Commons BY-NC-SA.</a></p>
 
     
   </main>
