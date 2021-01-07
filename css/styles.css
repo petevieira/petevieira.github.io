@@ -5,6 +5,12 @@
     font-weight: bold;
     font-style: normal;
 }
+@font-face {
+    font-family: 'Rapierevite';
+    src: url('https://petevieira.github.io/css/fonts/rapierevite-regular.tff') format('tff');
+    font-weight: normal;
+    font-style: normal;
+}
 *,
 *::before,
 *::after {
@@ -17,7 +23,8 @@
 }
 html {
     font-size: calc(1em + 0.33vw);
-    font-family: Arial, Helvetica Neue, sans-serif;
+    /*font-family: Arial, Helvetica Neue, sans-serif;*/
+    font-family: Rapierevite;
     line-height: 1.5;
     color: #111;
     background-color: #fefefe;
